@@ -18,8 +18,8 @@
 }
 .video_container {
   position: absolute;
-  width: 500px;
-  height: 200px;
+  width: 30vw;
+  height: 15vh;
   opacity: 0;
   background-color: red;
 }
