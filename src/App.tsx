@@ -1,7 +1,7 @@
-import NumberPicker from "./components/NumberPicker";
+import RandomVideos from "./components/RandomVideos";
 
 function App(): JSX.Element {
-  return <NumberPicker />;
+  return <RandomVideos />;
 }
 
 export default App;

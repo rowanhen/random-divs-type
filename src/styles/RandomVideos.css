@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.landing_text {
+  top: 0px;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15vw;
+  transform: scale(2.2, 1);
+  color: black;
+}
+.video_container {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  opacity: 0;
+  background-color: red;
+}
+.video_container img {
+  width: 100%;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
